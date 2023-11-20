@@ -1,17 +1,244 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="pt-br" data-bs-theme="auto">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
-  <title>Vanilla JavaScript App</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.115.4">
+
+    <title>Tachiyomi - Food Wars</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/sidebars/">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
+    <link href="/bootstrap.min.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="https://tachiyomi.org/favicon.ico">
+    <style>
+        @media (max-width:575px) {
+            .nav-alinhar {
+                display: flex;
+                flex-direction: column;
+                margin-top: 3%;
+            }
+
+            .nav-alinhar button {
+                margin-top: 2%;
+            }
+        }
+
+        .nav-alinhar button {
+            margin-left: 5%;
+        }
+
+        .b-example-divider {
+            width: 100%;
+            height: 3rem;
+            background-color: rgba(0, 0, 0, .1);
+            border: solid rgba(0, 0, 0, .15);
+            border-width: 1px 0;
+            box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+        }
+
+        .b-example-vr {
+            flex-shrink: 0;
+            width: 1.5rem;
+            height: 100vh;
+        }
+
+        .bi {
+            vertical-align: -.125em;
+            fill: currentColor;
+        }
+
+        .nav-scroller {
+            position: relative;
+            z-index: 2;
+            height: 2.75rem;
+            overflow-y: hidden;
+        }
+
+        .nav-scroller .nav {
+            display: flex;
+            flex-wrap: nowrap;
+            padding-bottom: 1rem;
+            margin-top: -1px;
+            overflow-x: auto;
+            text-align: center;
+            white-space: nowrap;
+            -webkit-overflow-scrolling: touch;
+        }
+
+        .btn-bd-primary {
+            --bd-violet-bg: #712cf9;
+            --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
+
+            --bs-btn-font-weight: 600;
+            --bs-btn-color: var(--bs-white);
+            --bs-btn-bg: var(--bd-violet-bg);
+            --bs-btn-border-color: var(--bd-violet-bg);
+            --bs-btn-hover-color: var(--bs-white);
+            --bs-btn-hover-bg: #6528e0;
+            --bs-btn-hover-border-color: #6528e0;
+            --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+            --bs-btn-active-color: var(--bs-btn-hover-color);
+            --bs-btn-active-bg: #5a23c8;
+            --bs-btn-active-border-color: #5a23c8;
+        }
+
+        .bd-mode-toggle {
+            z-index: 1500;
+        }
+
+        .capa {
+            height: 400px;
+            overflow: hidden;
+            background-size: cover;
+            background-image: url(/img/one_punch_man_capa.png);
+            background-size: cover;
+        }
+    </style>
+
+    <!-- Estilo da Pagina -->
+    <link href="/sign-in.css" rel="stylesheet">
 </head>
 
-<body>
-  <main>
-    <h1>Emori é lindo demais</h1>
-  </main>
+<body id="topo" class="bg-dark">
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="/index.html">
+                <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="30.000000pt" height="30.000000pt"
+                    viewBox="0 0 288.000000 288.000000" preserveAspectRatio="xMidYMid meet">
+                    <g transform="translate(0.000000,288.000000) scale(0.100000,-0.100000)" fill="#2E84BF"
+                        stroke="none">
+                        <path
+                            d="M1412 2513 l-183 -3 8 -98 c4 -53 8 -119 8 -147 l0 -50 -410 0 -410 0 3 -179 3 -179 67 7 c152 14 1015 18 1462 7 256 -7 472 -14 480 -16 13 -4 15 20 15 178 l0 182 -383 -4 c-210 -2 -398 0 -418 3 l-35 7 3 150 c3 128 1 149 -12 147 -8 -1 -97 -4 -198 -5z" />
+                        <path
+                            d="M845 1744 c-128 -50 -160 -67 -158 -81 1 -10 22 -73 47 -140 58 -153 124 -384 166 -578 18 -82 34 -151 35 -153 2 -2 83 25 182 60 l179 63 -12 60 c-35 168 -248 836 -267 834 -7 -1 -84 -30 -172 -65z" />
+                        <path
+                            d="M1781 1643 c-104 -417 -229 -832 -271 -901 l-19 -31 -173 -3 c-200 -3 -913 9 -943 16 -19 5 -20 0 -20 -180 l0 -186 50 6 c28 3 518 9 1090 12 l1040 7 0 176 0 176 -85 -7 c-47 -3 -195 -7 -329 -7 -191 -1 -242 2 -238 12 3 6 22 50 42 97 65 152 296 863 284 874 -4 4 -326 94 -365 103 -20 4 -24 -7 -63 -164z" />
+                    </g>
+                </svg>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mynavbar">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link text-secondary" href="/index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-secondary" href="/quem_somos.html">Quem somos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-secondary" href="https://tachiyomi.org/" target="_blank">Download
+                            app</a>
+                    </li>
+                </ul>
+                <div class="nav-alinhar d-flex justify-content-between">
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                    <button class="btn btn-outline-secondary"
+                        onclick="window.location.href='/login.html'">Login</button>
+                    <button class="btn btn-secondary" onclick="window.location.href='/cadastro.html'">Cadastro</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <main class="d-flex flex-nowrap">
+        <div class=" p-3 text-bg-dark" style="width: 100%;">
+            <div class="album py-5 bg-body-tertiary">
+                <div class="container">
+                    <div class="capa rounded-5 d-flex">
+                        <img src="/img/one_punch_man.png" class="rounded-4 m-5" alt="...">
+                        <div class="row g-0 rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                            <div class="col p-4 mt-5 d-flex flex-column position-static">
+                                <strong class="d-inline-block mb-2 text-primary-emphasis">World</strong>
+                                <h3 class="mb-0">Featured post</h3>
+                                <div class="mb-1 text-body-secondary">
+                                    
+                                </div>
+                                <p class="card-text mb-auto">A história segue o dia-a-dia de um herói normal que está infeliz por ser forte o bastante para derrotar todos os seus oponentes com apenas um soco, já que isso não lhe traz mais a sensação de adrenalina ao enfrentar um inimigo poderoso.</p>
+                            </div>
+                        </div>
+                    </div>                    
+                </div>
+            </div>
+            <div class="b-example-divider"></div>
+            <div class="container">
+                <footer class="py-3 my-4">
+                    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                        <li class="nav-item">
+                            <a href="/index.html" class="nav-link px-2 text-body-secondary link-secondary">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="/quem_somos.html" class="nav-link px-2 text-body-secondary link-secondary">Quem
+                                Somos</a>
+                        </li>
+                        <li class="nav-item">
+                            <button type="button" class="btn bg-transparent text-secondary" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal" data-bs-whatever="@contato">Entre em contato</button>
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                                style="display: none;" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content bg-dark">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="exampleModalLabel">New message</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <form>
+                                                <div class="mb-3">
+                                                    <label for="recipient-name" class="col-form-label">Nome:</label>
+                                                    <input type="text" class="form-control bg-transparent text-light"
+                                                        id="recipient-name">
+                                                </div>
+                                                <div class="mb-3">
+                                                    <label for="recipient-name"
+                                                        class="col-form-label">Sobrenome:</label>
+                                                    <input type="text" class="form-control bg-transparent text-light"
+                                                        id="recipient-name">
+                                                </div>
+                                                <div class="mb-3">
+                                                    <label for="message-text" class="col-form-label">Messagem:</label>
+                                                    <textarea class="form-control bg-transparent text-light"
+                                                        id="message-text"></textarea>
+                                                </div>
+                                            </form>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-bs-dismiss="modal">Close</button>
+                                            <button type="button" class="btn btn-outline-success"
+                                                data-bs-dismiss="modal">Send message</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a href="https://tachiyomi.org/download/"
+                                class="nav-link px-2 text-body-secondary link-secondary" target="_blank">Download</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="https://tachiyomi.org/privacy/"
+                                class="nav-link px-2 text-body-secondary link-secondary" target="_blank">Privacidade</a>
+                        </li>
+                    </ul>
+                    <p class="text-center text-body-secondary">© 2023 Leonardo Vinícius. O direito de permanecer calado.
+                    </p>
+                </footer>
+            </div>
+        </div>
+    </main>
+
+    <script src="/bootstrap.bundle.min.js"></script>
+    <script src="/sidebars.js"></script>
 </body>
 
 </html>
