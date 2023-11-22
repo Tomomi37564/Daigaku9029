@@ -26,7 +26,7 @@
       }
 
       header {
-        background-color: blue;
+        background-color: gray;
       }
       .center {
         display: block;
@@ -73,61 +73,61 @@
   <header id="header">
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
-        <a href="index.html">
-          <img
-            src="Logo.png"
-            alt="Logo"
-            width="50"
-            height="42"
-            href="index.html"
-        /></a>
+        <img
+          src="Logo.png"
+          alt="Logo"
+          width="50"
+          height="42"
+          href="index.html"
+        />
         <button
           class="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
-          data-bs-target="#navbarNavDropdown"
-          aria-controls="navbarNavDropdown"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html"
-                >Home</a
-              >
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="filmes.html">Filmes</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="Games.html">Games</a>
+              <a class="nav-link" href="games.html">Games</a>
             </li>
-            <div class="nav-right">
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Cadastro/Login
-                </a>
-                <ul class="dropdown-menu">
-                  <li>
-                    <a class="dropdown-item" href="Cadastro">Cadastrar</a>
-                  </li>
-                  <li><a class="dropdown-item" href="Login">Login</a></li>
-                  <li><a class="dropdown-item" href="Historico">Historico</a></li>
-                </ul>
-              </li>
-            </div>
           </ul>
+
         </div>
       </div>
     </nav>
+    <div class="nav-right">
+    <li class="nav-item dropdown">
+      <a
+        class="nav-link dropdown-toggle"
+        href="#"
+        role="button"
+        data-bs-toggle="dropdown"
+        aria-expanded="false"
+      >
+        Conta
+      </a>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="cadastro.html">Cadastro</a></li>
+        <li><a class="dropdown-item" href="login.html">Login</a></li>
+        <li><hr class="dropdown-divider" /></li>
+        <li>
+          <a class="dropdown-item" href="historico.html">Historico</a>
+        </li>
+      </ul>
+    </li>
+  </div>
   </header>
 
   <body>
