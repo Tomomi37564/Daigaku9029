@@ -9,177 +9,132 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, inicial-scal" />
     <title>NewTube</title>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
-      crossorigin="anonymous"
-    ></script>
+
     <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
-      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
+
     <style>
       html {
         margin-bottom: -10px;
       }
       body {
-        background-image: url(https://i.imgur.com/GtOBS7E.jpg);
-        background-size: cover;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
+        background-color: azure;
       }
 
-      div.Ultimate {
-        margin-bottom: 0px;
-      }
-
-      #header-img {
-        max-height: 80px;
-      }
       header {
-        background-image: url(https://i.imgur.com/NWKHDlX.jpg);
+        background-color: gray;
       }
+
       footer {
       }
-      table {
-        border: 2cm;
+      header {
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
       }
-      .center {
+
+      .navbar {
+        overflow: hidden;
+        background-color: #333;
+      }
+
+      .navbar a {
+        float: left;
         display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 50%;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
       }
-      #my {
-        zoom: 175%;
+
+      .navbar a:hover {
+        background: #ddd;
+        color: black;
       }
-      div.card {
-        margin-left: 20%;
-        margin-right: 20%;
+
+      .nav-right {
+        float: right;
       }
     </style>
   </head>
 
   <header id="header">
-    <div class="h2">
-      <ul class="nav nav-underline">
-        <a href="index.html">
-          <img
-            src="Logo.png"
-            alt="Logo"
-            width="50"
-            height="42"
-            href="index.html"
-        /></a>
-        <li class="nav-item">
-          <a
-            class="nav-link active"
-            aria-current="page"
-            href="index.html"
-            >Home</a
-          >
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="Filmes.html">Filmes</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="Games.html">Games</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="Musicas.html">Musicas</a>
-        </li>
-      </ul>
-      <hr />
+    <div class="navbar">
+      <a href="index.html">
+        <img src="Logo.png" alt="Logo" width="50" height="42" href="index.html"
+      /></a>
+      <a href="index.html">Home</a>
+      <a href="filmes.html">Filmes</a>
+      <a href="games.html">Game</a>
+      <a href="musicas.html">Musicas</a>
+      <div class="nav-right">
+        <a href="login.html">Login</a>
+        <a href="cadastro.html">Cadastro</a>
+      </div>
     </div>
   </header>
 
   <body>
     <a style="font-size: xx-large; color: white">Em Destaque</a>
-    <br />
-
-    <table class="table table-striped">
-      <tbody>
+    <table>
         <tr>
-          <td>
-            <a href="F:\HTML\Links\CCTM.html">
-              <img
-                src="F:\HTML\Imagens\CharlieC_MT.jpg"
-                alt="CCTM"
-                width="90"
-                height="160"
-              />
-            </a>
-            aaa
+          <td style="width: 33%;">
+            <img src="CharlieC_MT.jpg" alt="Charlie Chaplin Modern Times">
           </td>
-          <th scope="row" href="F:\HTML\Links\CCTM.html">
-            Charlie Chaplin Tempos Modernos
-          </th>
+          <td style="width: 66%;">
+            Tempos Modernos é um filme de 1936 idealizado por Charles Chaplin. A produção se tornou um clássico do cinema e é uma das mais conhecidas do cineasta. O personagem principal é Carlitos, interpretado também por Chaplin. Essa figura inusitada é a marca registrada do artista e está presente na maioria de seus filmes. Carlitos é um homem do povo. Ele consegue misturar humor com ingenuidade de forma brilhante, sendo assim um tipo de palhaço.
+          </td>
         </tr>
-
         <tr>
-          <td>
-            <a href="F:\HTML\Links\NOTLD.html">
-              <img
-                src="F:\HTML\Imagens\NOTLD.jpg"
-                alt="NOTLD"
-                width="90"
-                height="160"
-              />
-            </a>
-            aaa
+          <td style="width: 33%;">
+            <img src="NOTLD.html" alt="Night of The Living Dead">
           </td>
-          <th scope="row" href="F:\HTML\Links\NOTLD.html">
-            Night of the Living Dead
-          </th>
+          <td style="width: 66%;">
+            Night of the Living Dead é um filme de terror de 1968, dirigido por George A. Romero. O filme conta a história de um grupo de pessoas que se refugia em uma fazenda isolada, cercada por zumbis que querem devorar seus cérebros. O filme é considerado um clássico do gênero e uma crítica social à violência, ao racismo e à desconfiança na sociedade americana da época.
+        </td>
         </tr>
-
         <tr>
-          <td>
-            <a href="F:\HTML\Links\FTN.html">
-              <img
-                src="F:\HTML\Imagens\FTN.jpg"
-                alt="FTN"
-                width="90"
-                height="160"
-              />
-            </a>
-            aaa
+          <td style="width: 33%;">
+            <img src="FTN.html" alt="Flight to Nowhere">
           </td>
-          <th scope="row">Flight to Nowhere</th>
+          <td style="width: 66%;">
+            Flight to Nowhere é uma viagem aérea que não tem um destino específico e retorna ao ponto de partida. É uma forma de turismo que visa proporcionar uma experiência de voo sem sair do país de origem. Alguns voos para lugar nenhum oferecem vistas panorâmicas, entretenimento a bordo e refeições especiais. Outros são mais simples e apenas simulam o processo de embarque e desembarque. Os voos para lugar nenhum são controversos porque consomem combustível e emitem poluentes sem um propósito claro.
+          </td>
         </tr>
-      </tbody>
-    </table>
-    <br />
-    <div class="cell large-4">
-      <div class="card">
-        <div class="content">
-          <p style="text-align: center">
-            Faça parte do nosso equipe, confira as vantagens e benefícios.
-          </p>
-          <figure>
-            <a href="F:\HTML\Links\TalkUs.html"
-              ><img
-                alt="Aperto de mãos"
-                src="F:\HTML\Imagens\handshake.svg"
-                class="center"
-                height="50"
-                width="50"
-              />
-            </a>
-          </figure>
-        </div>
-        <div class="card-section">
-          <p style="text-align: center">
-            <a href="F:\HTML\Links\TalkUs.html">Saiba mais</a>
-          </p>
+      </table>
+
+      <br />
+      <div class="cell large-4">
+        <div class="card">
+          <div class="content">
+            <p style="text-align: center">
+              Faça parte do nosso equipe, confira as vantagens e benefícios.
+            </p>
+            <figure>
+              <a href="TalkUs.html"
+                ><img
+                  alt="Aperto de mãos"
+                  src="handshake.svg"
+                  class="center"
+                  height="50"
+                  width="50"
+                />
+              </a>
+            </figure>
+          </div>
+          <div class="card-section">
+            <p style="text-align: center">
+              <a href="F:\HTML\Links\TalkUs.html">Saiba mais</a>
+            </p>
+          </div>
         </div>
       </div>
-    </div>
-  </body>
-  <br />
+    </body>
+    <br />
 
   <footer>
     <p style="color: white">
