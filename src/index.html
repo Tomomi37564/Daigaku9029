@@ -25,9 +25,6 @@
         background-color: azure;
       }
 
-      header {
-        background-color: blue;
-      }
       .center {
         display: block;
         margin-left: auto;
@@ -39,61 +36,69 @@
       }
       footer {
       }
-      header {
-        margin: 0;
-        font-family: Arial, Helvetica, sans-serif;
-      }
-
-
-      .navbar a {
-        float: left;
-        display: block;
-        color: #f2f2f2;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-        font-size: 17px;
-      }
-
-      .navbar a:hover {
-        background: #ddd;
-        color: black;
-      }
-
-      .nav-right {
-        float: right;
-      }
     </style>
   </head>
 
-  <header id="header">
-    
-
-<nav class="navbar">
-  <div class="container-fluid">
-      <ul class="navbar-nav">
-          <a href="index.html">
-              <img src="Logo.png" width="30" height="30" alt="logo" />
-          </a>
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="filmes.html">Filmes</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="games.html">Games</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="musicas.html">Musicas</a>
-        </li>
-      </ul>
-      <div class="nav-right">
-        <a href="login.html">Login/Cadastro</a>
+  <header>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark sticky-top">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img
+            src="F:\HTML\Imagens\Logo.png"
+            alt="Logo"
+            width="50"
+            height="42"
+            href="F:\HTML\Links\Home.html"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#mynavbar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mynavbar">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="nav-link text-secondary" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-secondary" href="filmes.html">Filmes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-secondary" href="Games">Games</a>
+            </li>
+          </ul>
+          <div class="nav-alinhar d-flex justify-content-between">
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Search
+              </button>
+            </form>
+            <button
+              class="btn btn-outline-secondary"
+              onclick="window.location.href='login.html'"
+            >
+              Login
+            </button>
+            <button
+              class="btn btn-secondary"
+              onclick="window.location.href='cadastro.html'"
+            >
+              Cadastro
+            </button>
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
-</nav>
+    </nav>
   </header>
 
   <body>
