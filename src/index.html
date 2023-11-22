@@ -24,9 +24,7 @@
       body {
         background-color: azure;
       }
-li {
-  display: inline;
-}
+
       header {
         background-color: gray;
       }
@@ -73,24 +71,50 @@ li {
   </head>
 
   <header id="header">
-    <ul>
-      <a
-        ><img
-          src="Logo.png"
-          alt="Logo"
-          width="50"
-          height="42"
-          href="index.html"
-      /></a>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="filmes.html">Filmes</a></li>
-      <li><a href="games.html">Games</a></li>
-      <li><a href="musicas.html">Musicas</a></li>
-      <div class="nav-right">
-        <a href="login.html">Login/Cadastro</a>
+    <nav class="navbar navbar-light bg-light">
+      <a class="navbar-brand" href="index.html">
+        <img src="logo.png" width="30" height="30" alt="logo" />
+      </a>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="filmes.html">Filmes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="games.html">Games</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="musicas.html">Musicas</a>
+          </li>
+          <div class="nav-right">
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Conta
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="cadastrar.html">Cadastrar</a>
+                <a class="dropdown-item" href="login.html">Login</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="historico.html">Historico</a>
+              </div>
+            </li>
+          </div>
+        </ul>
       </div>
-
-    </ul>
+    </nav>
   </header>
 
   <body>
