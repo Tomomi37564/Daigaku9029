@@ -1,196 +1,155 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <link
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, inicial-scal" />
-    <title>NewTube</title>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inserir</title>
 
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
-      crossorigin="anonymous"
-    />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
-    <style>
-      html {
-        margin-bottom: -10px;
-      }
-      body {
-        background-color: azure;
-        margin-left: 2px;
-      }
-
-      .center {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 50%;
-      }
-      table,th,td {
-        border: 1px solid gray;
-      }
-
-      footer {
-      }
-    </style>
-  </head>
-
-  <header>
-    <nav class="navbar navbar-expand-sm navbar-dark bg-dark sticky-top">
-      <div class="container">
+</head>
+<body>
+    <nav class="navbar navbar-expand navbar-dark bg-dark">
         <a class="navbar-brand" href="index.html">
-          <img
-            src="Logo.png"
-            alt="Logo"
-            width="50"
-            height="50"
-            href="index.html"
-          />
-        </a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#mynavbar"
+            <img
+              src="Logo.png"
+              alt="Logo"
+              width="50"
+              height="50"
+              href="index.html"
+            />
+          </a>
+
+        <div class="collapse navbar-collapse" id="navbarsExample02">
+            <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="filmes.html">Filmes</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="games.html">Games</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="musicas.html">Musicas</a>
+            </li>
+            </ul>
+            <form class="form-inline my-2 my-md-0">
+                <button
+                class="btn btn-outline-secondary"
+                onclick="window.location.href='login.html'"
+              >
+                Login
+              </button>
+              <button
+                class="btn btn-secondary"
+                onclick="window.location.href='cadastro.html'"
+              >
+                Cadastro
+              </button>
+            </form>
+        </div>
+    </nav>
+
+    <body>
+        <a style="font-size: xx-large; text-align: center; color: black"
+          >Em Destaque</a
         >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="mynavbar">
-          <ul class="navbar-nav me-auto">
-            <li class="nav-item">
-              <a class="nav-link text-secondary" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-secondary" href="filmes.html">Filmes</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-secondary" href="Games">Games</a>
-            </li>
-          </ul>
-          <div class="nav-alinhar d-flex justify-content-between">
-            <button
-              class="btn btn-outline-secondary"
-              onclick="window.location.href='login.html'"
-            >
-              Login
-            </button>
-            <button
-              class="btn btn-secondary"
-              onclick="window.location.href='cadastro.html'"
-            >
-              Cadastro
-            </button>
+        <table>
+          <tr>
+            <td style="width: 15%">
+              <img
+                src="CharlieC_MT.jpg"
+                alt="Charlie Chaplin Modern Times"
+                width="90"
+                height="160"
+              />
+            </td>
+            <td style="width: 85%">
+              Tempos Modernos é um filme de 1936 idealizado por Charles Chaplin. A
+              produção se tornou um clássico do cinema e é uma das mais conhecidas
+              do cineasta. O personagem principal é Carlitos, interpretado também
+              por Chaplin. Essa figura inusitada é a marca registrada do artista e
+              está presente na maioria de seus filmes. Carlitos é um homem do povo.
+              Ele consegue misturar humor com ingenuidade de forma brilhante, sendo
+              assim um tipo de palhaço.
+            </td>
+            <hr />
+          </tr>
+    
+          <tr>
+            <td style="width: 15%">
+              <img
+                src="NOTLD.jpg"
+                alt="Night of The Living Dead"
+                width="90"
+                height="160"
+              />
+            </td>
+            <td style="width: 85%">
+              Night of the Living Dead é um filme de terror de 1968, dirigido por
+              George A. Romero. O filme conta a história de um grupo de pessoas que
+              se refugia em uma fazenda isolada, cercada por zumbis que querem
+              devorar seus cérebros. O filme é considerado um clássico do gênero e
+              uma crítica social à violência, ao racismo e à desconfiança na
+              sociedade americana da época.
+            </td>
+            <hr />
+          </tr>
+    
+          <tr>
+            <td style="width: 15%">
+              <img src="FTN.jpg" alt="Flight to Nowhere" width="90" height="160" />
+            </td>
+            <td style="width: 85%">
+              Flight to Nowhere é uma viagem aérea que não tem um destino específico
+              e retorna ao ponto de partida. É uma forma de turismo que visa
+              proporcionar uma experiência de voo sem sair do país de origem. Alguns
+              voos para lugar nenhum oferecem vistas panorâmicas, entretenimento a
+              bordo e refeições especiais. Outros são mais simples e apenas simulam
+              o processo de embarque e desembarque. Os voos para lugar nenhum são
+              controversos porque consomem combustível e emitem poluentes sem um
+              propósito claro.
+            </td>
+          </tr>
+        </table>
+    
+        <br />
+        <div class="cell large-4">
+          <div class="card">
+            <div class="content">
+              <p style="text-align: center">
+                Faça parte do nosso equipe, confira as vantagens e benefícios.
+              </p>
+              <figure>
+                <a href="TalkUs.html"
+                  ><img
+                    alt="Aperto de mãos"
+                    src="handshake.svg"
+                    class="center"
+                    height="50"
+                    width="50"
+                  />
+                </a>
+              </figure>
+            </div>
+            <div class="card-section">
+              <p style="text-align: center">
+                <a href="F:\HTML\Links\TalkUs.html">Saiba mais</a>
+              </p>
+            </div>
           </div>
         </div>
-      </div>
-    </nav>
-  </header>
-
-  <body>
-    <a style="font-size: xx-large; text-align: center; color: black"
-      >Em Destaque</a
-    >
-    <table>
-      <tr>
-        <td style="width: 15%">
-          <img
-            src="CharlieC_MT.jpg"
-            alt="Charlie Chaplin Modern Times"
-            width="90"
-            height="160"
-          />
-        </td>
-        <td style="width: 85%">
-          Tempos Modernos é um filme de 1936 idealizado por Charles Chaplin. A
-          produção se tornou um clássico do cinema e é uma das mais conhecidas
-          do cineasta. O personagem principal é Carlitos, interpretado também
-          por Chaplin. Essa figura inusitada é a marca registrada do artista e
-          está presente na maioria de seus filmes. Carlitos é um homem do povo.
-          Ele consegue misturar humor com ingenuidade de forma brilhante, sendo
-          assim um tipo de palhaço.
-        </td>
-        <hr />
-      </tr>
-
-      <tr>
-        <td style="width: 15%">
-          <img
-            src="NOTLD.jpg"
-            alt="Night of The Living Dead"
-            width="90"
-            height="160"
-          />
-        </td>
-        <td style="width: 85%">
-          Night of the Living Dead é um filme de terror de 1968, dirigido por
-          George A. Romero. O filme conta a história de um grupo de pessoas que
-          se refugia em uma fazenda isolada, cercada por zumbis que querem
-          devorar seus cérebros. O filme é considerado um clássico do gênero e
-          uma crítica social à violência, ao racismo e à desconfiança na
-          sociedade americana da época.
-        </td>
-        <hr />
-      </tr>
-
-      <tr>
-        <td style="width: 15%">
-          <img src="FTN.jpg" alt="Flight to Nowhere" width="90" height="160" />
-        </td>
-        <td style="width: 85%">
-          Flight to Nowhere é uma viagem aérea que não tem um destino específico
-          e retorna ao ponto de partida. É uma forma de turismo que visa
-          proporcionar uma experiência de voo sem sair do país de origem. Alguns
-          voos para lugar nenhum oferecem vistas panorâmicas, entretenimento a
-          bordo e refeições especiais. Outros são mais simples e apenas simulam
-          o processo de embarque e desembarque. Os voos para lugar nenhum são
-          controversos porque consomem combustível e emitem poluentes sem um
-          propósito claro.
-        </td>
-      </tr>
-    </table>
-
-    <br />
-    <div class="cell large-4">
-      <div class="card">
-        <div class="content">
-          <p style="text-align: center">
-            Faça parte do nosso equipe, confira as vantagens e benefícios.
-          </p>
-          <figure>
-            <a href="TalkUs.html"
-              ><img
-                alt="Aperto de mãos"
-                src="handshake.svg"
-                class="center"
-                height="50"
-                width="50"
-              />
-            </a>
-          </figure>
-        </div>
-        <div class="card-section">
-          <p style="text-align: center">
-            <a href="F:\HTML\Links\TalkUs.html">Saiba mais</a>
-          </p>
-        </div>
-      </div>
-    </div>
-  </body>
-  <br />
-
-  <footer>
-    <p style="color: black">
-      Email:<a href="mailto:Newtube2023@gmail.com">Newtube2023@gmail.com</a>
-    </p>
-    <p style="color: black">Duvida? Ligue para nós 11 91284263</p>
-    <p style="text-align: center; font-size: small; color: black">
-      © Copyright 2023-2023 Newtube S.A
-    </p>
-  </footer>
-</html>
+      </body>
+      <br />
+    
+      <footer>
+        <p style="color: black">
+          Email:<a href="mailto:Newtube2023@gmail.com">Newtube2023@gmail.com</a>
+        </p>
+        <p style="color: black">Duvida? Ligue para nós 11 91284263</p>
+        <p style="text-align: center; font-size: small; color: black">
+          © Copyright 2023-2023 Newtube S.A
+        </p>
+      </footer>
+    </html>
