@@ -58,7 +58,23 @@ function randomPiece(){
 
 let p = randomPiece();
 
-
+function updatescore(linhas){
+    if (linhas == 0) {
+        return 0;
+    } 
+    if (linhas == 1) {
+        return 1;
+    } 
+    if (linhas == 2) {
+        return 1;
+    } 
+    if (linhas == 3) {
+        return 4;
+    }
+    if (linhas == 4) {
+        return 18;
+    } 
+}
 
 function Piece(tetromino,color){
     this.tetromino = tetromino;
@@ -176,13 +192,13 @@ Piece.prototype.lock = function(){
         }
     }
 
+//for atualização foda:
     for(r = 0; r < ROW; r++){
         let isRowFull = true;
         for( c = 0; c < COL; c++){
             isRowFull = isRowFull && (board[r][c] != VACANT);
         }
         if(isRowFull){
-
             for( y = r; y > 1; y--){
                 for( c = 0; c < COL; c++){
                     board[y][c] = board[y-1][c];
@@ -192,10 +208,11 @@ Piece.prototype.lock = function(){
             for( c = 0; c < COL; c++){
                 board[0][c] = VACANT;
             }
-    
-            score += 1;
+            cont++;
+            score += updatescore(cont);
         }
     }
+    cont = 0;
 
     drawBoard();
     
