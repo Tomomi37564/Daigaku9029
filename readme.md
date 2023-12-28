@@ -9,20 +9,23 @@ This repo has a dev container. This means if you open it inside a [GitHub Codesp
 Trabalho da materia onde precisava criar um jogo com o tema gerenciamento de memoria
 
 Integrantes:
-Ana Laura
-Fabio Casagrande
-João Salvador
-Lucas Gomes
-Matheus de Souza
-Milton Ozeki
-Nattan da Silva
+Ana Laura/ 
+Fabio Casagrande/ 
+João Salvador/ 
+Lucas Gomes/ 
+Matheus de Souza/ 
+Milton Ozeki/ 
+Nattan da Silva/ 
 
-Detalhes do trabalho:
-Jogo de Simulação 6: Desafios de Gerenciamento de Memória
 Objetivo:
-Os jogadores enfrentam uma simulação interativa na qual devem gerenciar eficientemente a alocação de memória, lidar com fragmentação e otimizar o uso dos recursos disponíveis.
+Os jogadores enfrentam uma simulação interativa na qual devem gerenciar eficientemente a alocação de 
+memória, lidar com fragmentação e otimizar o uso dos recursos disponíveis.
 Materiais necessários:
-Simulador de software que permite aos jogadores interagir com o processo de gerenciamento de memória. Conjunto de desafios que exigem o uso eficaz da memória e estratégias de otimização.
+Simulador de software que permite aos jogadores interagir com o processo de gerenciamento de memória.
+Conjunto de desafios que exigem o uso eficaz da memória e estratégias de otimização.
 Regras:
-Os jogadores recebem uma série de tarefas relacionadas ao gerenciamento de memória. Eles devem alocar memória de forma eficiente, lidar com a fragmentação e otimizar o uso dos recursos disponíveis 
-para completar as tarefas. A pontuação é baseada na eficiência da alocação de memória e na capacidade de otimizar o uso dos recursos. O jogador com a melhor pontuação ou a estratégia mais eficaz é declarado vencedor
+Os jogadores recebem uma série de tarefas relacionadas ao gerenciamento de memória.
+Eles devem alocar memória de forma eficiente, lidar com a fragmentação e otimizar o uso dos recursos disponíveis 
+para completar as tarefas.
+A pontuação é baseada na eficiência da alocação de memória e na capacidade de otimizar o uso dos recursos.
+O jogador com a melhor pontuação ou a estratégia mais eficaz é declarado vencedor
