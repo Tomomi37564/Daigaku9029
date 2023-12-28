@@ -33,3 +33,9 @@ Eles devem alocar memória de forma eficiente, lidar com a fragmentação e otim
 para completar as tarefas.
 A pontuação é baseada na eficiência da alocação de memória e na capacidade de otimizar o uso dos recursos.
 O jogador com a melhor pontuação ou a estratégia mais eficaz é declarado vencedor
+
+  # List of project contribuitors
+* **[Leonardo Vinicius](https://github.com/Pokernol){Score Function}**
+* **[Matheus Silva & João Neto](https://github.com/DevMatheusSilva & https://github.com/joao72neto){Front End}**
+* **[Ana Nolasco](https://github.com/nolascolunardi){Slide for Presentation}**
+* **[Nattan Silva & Lucas Gomes & Fabio Casagrande](https://github.com/EthanHueh & https://github.com/JoesvaldoLover & https://github.com/fabin0casa){Moral support 👍}**
