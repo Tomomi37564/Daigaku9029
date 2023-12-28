@@ -6,9 +6,9 @@ This repo is used as a starter for a _very basic_ HTML web application using no 
 
 This repo has a dev container. This means if you open it inside a [GitHub Codespace](https://github.com/features/codespaces), or using [VS Code with the remote containers extension](https://code.visualstudio.com/docs/remote/containers), it will be opened inside a container with all the dependencies already installed.
 
-Trabalho da materia Sistema Operacionais onde precisava criar um jogo com o tema gerenciamento de memoria
+`Trabalho da materia Sistema Operacionais onde precisava criar um jogo com o tema gerenciamento de memoria`
 
-Integrantes:
+`Integrantes:`
 Ana Laura/ 
 Fabio Casagrande/ 
 João Salvador/ 
@@ -17,17 +17,17 @@ Matheus de Souza/
 Milton Ozeki/ 
 Nattan da Silva    
 
-Detalhes do Trabalho:    
+`Detalhes do Trabalho: `   
 
-Objetivo:  
+`Objetivo:  `
 Os jogadores enfrentam uma simulação interativa na qual devem gerenciar eficientemente a alocação de 
 memória, lidar com fragmentação e otimizar o uso dos recursos disponíveis.
 
-Materiais necessários:  
+`Materiais necessários:  `
 Simulador de software que permite aos jogadores interagir com o processo de gerenciamento de memória.
 Conjunto de desafios que exigem o uso eficaz da memória e estratégias de otimização.
 
-Regras:  
+`Regras:  `
 Os jogadores recebem uma série de tarefas relacionadas ao gerenciamento de memória.
 Eles devem alocar memória de forma eficiente, lidar com a fragmentação e otimizar o uso dos recursos disponíveis 
 para completar as tarefas.
