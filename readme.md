@@ -20,9 +20,11 @@ Nattan da Silva/
 Objetivo:
 Os jogadores enfrentam uma simulação interativa na qual devem gerenciar eficientemente a alocação de 
 memória, lidar com fragmentação e otimizar o uso dos recursos disponíveis.
+
 Materiais necessários:
 Simulador de software que permite aos jogadores interagir com o processo de gerenciamento de memória.
 Conjunto de desafios que exigem o uso eficaz da memória e estratégias de otimização.
+
 Regras:
 Os jogadores recebem uma série de tarefas relacionadas ao gerenciamento de memória.
 Eles devem alocar memória de forma eficiente, lidar com a fragmentação e otimizar o uso dos recursos disponíveis 
