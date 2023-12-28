@@ -18,6 +18,7 @@ Milton Ozeki/
 Nattan da Silva    
 
 Detalhes do Trabalho:    
+
 Objetivo:  
 Os jogadores enfrentam uma simulação interativa na qual devem gerenciar eficientemente a alocação de 
 memória, lidar com fragmentação e otimizar o uso dos recursos disponíveis.
