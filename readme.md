@@ -17,7 +17,7 @@ Matheus de Souza/
 Milton Ozeki/ 
 Nattan da Silva    
 
-`Detalhes do Trabalho: `   
+# Detalhes do Trabalho: `   
 
 `Objetivo:  `
 Os jogadores enfrentam uma simulação interativa na qual devem gerenciar eficientemente a alocação de 
